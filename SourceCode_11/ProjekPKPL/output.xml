@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.11.2 on win32)" generated="20230601 23:29:49.057" rpa="false">
+<suite id="s1" name="ProjekPKPL" source="C:\Perkuliahan\SEMESTER 4\PKPL\WEEK 11\PRAK\ProjekPKPL">
+<suite id="s1-s1" name="TestSuite" source="C:\Perkuliahan\SEMESTER 4\PKPL\WEEK 11\PRAK\ProjekPKPL\TestSuite">
+<suite id="s1-s1-s1" name="MenambahkanNaikSidi" source="C:\Perkuliahan\SEMESTER 4\PKPL\WEEK 11\PRAK\ProjekPKPL\TestSuite\MenambahkanNaikSidi.robot">
+<test id="s1-s1-s1-t1" name="DaftarNaikSidi100">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://127.0.0.1:8000</arg>
+<arg>edge</arg>
+</arguments>
+<msg timestamp="20230601 23:29:49.716" level="INFO">Opening browser 'edge' to base url 'http://127.0.0.1:8000'.</msg>
+<msg timestamp="20230601 23:29:49.732" level="INFO">Applicable driver not found; attempting to install with Selenium Manager (Beta)</msg>
+<status status="PASS" starttime="20230601 23:29:49.716" endtime="20230601 23:29:54.535"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<status status="PASS" starttime="20230601 23:29:54.536" endtime="20230601 23:29:54.549"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//html/body/div[1]/header/nav/div/div[2]/div[2]/ul/li[4]/a</arg>
+</arguments>
+<msg timestamp="20230601 23:29:54.550" level="INFO">Clicking element '//html/body/div[1]/header/nav/div/div[2]/div[2]/ul/li[4]/a'.</msg>
+<status status="PASS" starttime="20230601 23:29:54.549" endtime="20230601 23:29:54.765"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//html/body/div[1]/header/nav/div/div[2]/div[2]/ul/li[4]/ul/li[2]</arg>
+</arguments>
+<msg timestamp="20230601 23:29:54.766" level="INFO">Clicking element '//html/body/div[1]/header/nav/div/div[2]/div[2]/ul/li[4]/ul/li[2]'.</msg>
+<status status="PASS" starttime="20230601 23:29:54.765" endtime="20230601 23:29:56.973"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="country"]</arg>
+</arguments>
+<msg timestamp="20230601 23:29:56.975" level="INFO">Clicking element '//*[@id="country"]'.</msg>
+<status status="PASS" starttime="20230601 23:29:56.974" endtime="20230601 23:29:57.400"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="country"]/option[2]</arg>
+</arguments>
+<msg timestamp="20230601 23:29:57.401" level="INFO">Clicking element '//*[@id="country"]/option[2]'.</msg>
+<status status="PASS" starttime="20230601 23:29:57.401" endtime="20230601 23:29:57.593"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//html/body/div[1]/section[2]/div/div/div/div/div/div/form/div/div[2]/div[1]/input</arg>
+<arg>29/02/2003</arg>
+</arguments>
+<msg timestamp="20230601 23:29:57.594" level="INFO">Typing text '29/02/2003' into text field '//html/body/div[1]/section[2]/div/div/div/div/div/div/form/div/div[2]/div[1]/input'.</msg>
+<status status="PASS" starttime="20230601 23:29:57.594" endtime="20230601 23:29:57.872"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//html/body/div[1]/section[2]/div/div/div/div/div/div/form/div/div[2]/div[2]/input</arg>
+<arg>02/01/2004</arg>
+</arguments>
+<msg timestamp="20230601 23:29:57.872" level="INFO">Typing text '02/01/2004' into text field '//html/body/div[1]/section[2]/div/div/div/div/div/div/form/div/div[2]/div[2]/input'.</msg>
+<status status="PASS" starttime="20230601 23:29:57.872" endtime="20230601 23:29:58.075"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>//html/body/div[1]/section[2]/div/div/div/div/div/div/form/div/button</arg>
+</arguments>
+<msg timestamp="20230601 23:29:58.076" level="INFO">Clicking button '//html/body/div[1]/section[2]/div/div/div/div/div/div/form/div/button'.</msg>
+<status status="PASS" starttime="20230601 23:29:58.076" endtime="20230601 23:29:58.293"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20230601 23:30:01.295" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230601 23:29:58.294" endtime="20230601 23:30:01.295"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230601 23:30:01.296" endtime="20230601 23:30:03.761"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Test Completed</arg>
+</arguments>
+<msg timestamp="20230601 23:30:03.763" level="INFO">Test Completed</msg>
+<status status="PASS" starttime="20230601 23:30:03.762" endtime="20230601 23:30:03.763"></status>
+</kw>
+<status status="PASS" starttime="20230601 23:29:49.714" endtime="20230601 23:30:03.763" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20230601 23:29:49.208" endtime="20230601 23:30:03.765"></status>
+</suite>
+<status status="PASS" starttime="20230601 23:29:49.203" endtime="20230601 23:30:03.768"></status>
+</suite>
+<status status="PASS" starttime="20230601 23:29:49.160" endtime="20230601 23:30:03.771"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="ProjekPKPL">ProjekPKPL</stat>
+<stat pass="1" fail="0" id="s1-s1" name="TestSuite">ProjekPKPL.TestSuite</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="MenambahkanNaikSidi">ProjekPKPL.TestSuite.MenambahkanNaikSidi</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
